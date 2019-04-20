@@ -149,29 +149,42 @@ namespace LockFreeHashTable.Models
 
         public bool HasMember(FSet b, int k)
         {
-            if(b.Set.Any(x => x == k))
+            try
             {
-                return true;
+                if (b.Set.Any(x => x == k))
+                {
+                    return true;
+                }
+                return false;
             }
-            return false;
+            catch(Exception)
+            {
+                return false;
+            }
         }
 
         public bool Invoke(FSet b, FSetOp op)
         {
-            if(b.Ok && !op.Done)
+            try
             {
-                if(op.OpType == 1)
+                if (b.Ok && !op.Done)
                 {
-                    op.Resp = !HasMember(b, op.Key);
-                    b.Set.Add(op.Key);
+                    if (op.OpType == 1)
+                    {
+                        op.Resp = !HasMember(b, op.Key);
+                        b.Set.Add(op.Key);
+                    }
+                    else if (op.OpType == -1)
+                    {
+                        op.Resp = HasMember(b, op.Key);
+                        b.Set.Remove(op.Key);
+                    }
+                    op.Done = true;
                 }
-                else if(op.OpType == -1)
-                {
-                    op.Resp = HasMember(b, op.Key);
-                    b.Set.Remove(op.Key);
-                }
-                op.Done = true;
             }
+            catch(Exception)
+            { }
+
             return op.Done;
         }
 
