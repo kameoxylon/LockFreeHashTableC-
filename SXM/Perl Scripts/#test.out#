@@ -1,0 +1,1202 @@
+Thu Jan 20 13:33:03 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 1 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	1
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	1165626
+	Commit ratio:	100.00 %		1165626 / 1165626
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	1165626
+Thu Jan 20 13:33:24 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 2 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	2
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	878276
+	Commit ratio:	100.00 %		878276 / 878276
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	878276
+Thu Jan 20 13:33:44 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 4 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	4
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	934606
+	Commit ratio:	100.00 %		934606 / 934606
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	934606
+Thu Jan 20 13:34:04 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 8 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	8
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152023 seconds.
+
+Transactions:
+	Committed:	974883
+	Commit ratio:	100.00 %		974883 / 974883
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	974883
+Thu Jan 20 13:34:24 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 16 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	16
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152023 seconds.
+
+Transactions:
+	Committed:	934114
+	Commit ratio:	100.00 %		934114 / 934114
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	934114
+Thu Jan 20 13:34:44 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 32 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	32
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.1401999 seconds.
+
+Transactions:
+	Committed:	834754
+	Commit ratio:	100.00 %		834754 / 834754
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	834754
+Thu Jan 20 13:35:04 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 1 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	1
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	1181954
+	Commit ratio:	100.00 %		1181954 / 1181954
+----------------------------------------
+Calls:
+	Insert:		5958
+	Remove:		5957
+	Contains:	1170039
+Thu Jan 20 13:35:25 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 2 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	2
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:41.5147511 seconds.
+
+Transactions:
+	Committed:	202
+	Commit ratio:	86.70 %		202 / 233
+----------------------------------------
+Calls:
+	Insert:		2
+	Remove:		2
+	Contains:	200
+Thu Jan 20 13:36:06 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 4 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	4
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	796738
+	Commit ratio:	98.00 %		796738 / 812992
+----------------------------------------
+Calls:
+	Insert:		4126
+	Remove:		4122
+	Contains:	788492
+Thu Jan 20 13:36:26 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 8 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	8
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	699577
+	Commit ratio:	93.37 %		699577 / 749233
+----------------------------------------
+Calls:
+	Insert:		3644
+	Remove:		3638
+	Contains:	692300
+Thu Jan 20 13:36:46 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 16 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	16
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	464485
+	Commit ratio:	80.16 %		464485 / 579449
+----------------------------------------
+Calls:
+	Insert:		2405
+	Remove:		2390
+	Contains:	459700
+Thu Jan 20 13:37:07 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 32 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	32
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152023 seconds.
+
+Transactions:
+	Committed:	230891
+	Commit ratio:	56.22 %		230891 / 410683
+----------------------------------------
+Calls:
+	Insert:		975
+	Remove:		943
+	Contains:	229004
+Thu Jan 20 13:37:27 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 1 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	1
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	1041432
+	Commit ratio:	100.00 %		1041432 / 1041432
+----------------------------------------
+Calls:
+	Insert:		52308
+	Remove:		52307
+	Contains:	936817
+Thu Jan 20 13:37:47 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 2 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	2
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	810809
+	Commit ratio:	98.71 %		810809 / 821398
+----------------------------------------
+Calls:
+	Insert:		40622
+	Remove:		40621
+	Contains:	729567
+Thu Jan 20 13:38:07 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 4 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	4
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	641526
+	Commit ratio:	94.75 %		641526 / 677037
+----------------------------------------
+Calls:
+	Insert:		32443
+	Remove:		32440
+	Contains:	576646
+Thu Jan 20 13:38:27 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 8 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	8
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152023 seconds.
+
+Transactions:
+	Committed:	464852
+	Commit ratio:	84.24 %		464852 / 551828
+----------------------------------------
+Calls:
+	Insert:		23481
+	Remove:		23473
+	Contains:	417904
+Thu Jan 20 13:38:47 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 16 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	16
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152023 seconds.
+
+Transactions:
+	Committed:	191893
+	Commit ratio:	51.92 %		191893 / 369568
+----------------------------------------
+Calls:
+	Insert:		10095
+	Remove:		10081
+	Contains:	171731
+Thu Jan 20 13:39:07 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 32 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	32
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0308270 seconds.
+
+Transactions:
+	Committed:	16993
+	Commit ratio:	6.13 %		16993 / 277064
+----------------------------------------
+Calls:
+	Insert:		983
+	Remove:		951
+	Contains:	15090
+Thu Jan 20 13:39:27 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 1 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	1
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	764067
+	Commit ratio:	100.00 %		764067 / 764067
+----------------------------------------
+Calls:
+	Insert:		190706
+	Remove:		190706
+	Contains:	382656
+Thu Jan 20 13:39:48 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 2 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	2
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	593462
+	Commit ratio:	98.16 %		593462 / 604587
+----------------------------------------
+Calls:
+	Insert:		148173
+	Remove:		148171
+	Contains:	297119
+Thu Jan 20 13:40:08 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 4 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	4
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	446817
+	Commit ratio:	92.32 %		446817 / 484005
+----------------------------------------
+Calls:
+	Insert:		111553
+	Remove:		111551
+	Contains:	223717
+Thu Jan 20 13:40:28 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 8 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	8
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152027 seconds.
+
+Transactions:
+	Committed:	257121
+	Commit ratio:	76.78 %		257121 / 334892
+----------------------------------------
+Calls:
+	Insert:		64296
+	Remove:		64290
+	Contains:	128542
+Thu Jan 20 13:40:48 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 16 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	16
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	102439
+	Commit ratio:	37.26 %		102439 / 274905
+----------------------------------------
+Calls:
+	Insert:		25811
+	Remove:		25796
+	Contains:	50846
+Thu Jan 20 13:41:08 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 32 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	32
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0620764 seconds.
+
+Transactions:
+	Committed:	3239
+	Commit ratio:	1.24 %		3239 / 260940
+----------------------------------------
+Calls:
+	Insert:		882
+	Remove:		852
+	Contains:	1537
+Thu Jan 20 13:41:28 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 1 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	1
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	553451
+	Commit ratio:	100.00 %		553451 / 553451
+----------------------------------------
+Calls:
+	Insert:		276726
+	Remove:		276726
+	Contains:	0
+Thu Jan 20 13:41:48 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 2 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	2
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152052 seconds.
+
+Transactions:
+	Committed:	442324
+	Commit ratio:	97.68 %		442324 / 452811
+----------------------------------------
+Calls:
+	Insert:		221164
+	Remove:		221162
+	Contains:	0
+Thu Jan 20 13:42:09 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 4 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	4
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	334906
+	Commit ratio:	89.83 %		334906 / 372812
+----------------------------------------
+Calls:
+	Insert:		167457
+	Remove:		167453
+	Contains:	0
+Thu Jan 20 13:42:29 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 8 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	8
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152022 seconds.
+
+Transactions:
+	Committed:	211898
+	Commit ratio:	70.30 %		211898 / 301423
+----------------------------------------
+Calls:
+	Insert:		105957
+	Remove:		105949
+	Contains:	0
+Thu Jan 20 13:42:49 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 16 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	16
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	72860
+	Commit ratio:	28.39 %		72860 / 256629
+----------------------------------------
+Calls:
+	Insert:		36445
+	Remove:		36431
+	Contains:	0
+Thu Jan 20 13:43:09 2005	SXM -m SXM.BackoffManager -b SXM.RBTree -t 32 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.BackoffManager
+Threads:	32
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152081 seconds.
+
+Transactions:
+	Committed:	1911
+	Commit ratio:	0.72 %		1911 / 267086
+
+committed
+----------------------------------------
+Calls:
+	Insert:		987
+	Remove:		956
+	Contains:	0
+Thu Jan 20 13:43:29 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 1 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	1
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	1227012
+	Commit ratio:	100.00 %		1227012 / 1227012
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	1227012
+Thu Jan 20 13:43:49 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 2 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	2
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	890515
+	Commit ratio:	100.00 %		890515 / 890515
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	890515
+Thu Jan 20 13:44:09 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 4 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	4
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152022 seconds.
+
+Transactions:
+	Committed:	935485
+	Commit ratio:	100.00 %		935485 / 935485
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	935485
+Thu Jan 20 13:44:30 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 8 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	8
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152022 seconds.
+
+Transactions:
+	Committed:	952896
+	Commit ratio:	100.00 %		952896 / 952896
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	952896
+Thu Jan 20 13:44:50 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 16 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	16
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0308316 seconds.
+
+Transactions:
+	Committed:	943480
+	Commit ratio:	100.00 %		943480 / 943480
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	943480
+Thu Jan 20 13:45:10 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 32 -n 20000 -e 0
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	32
+Mix:		0% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.1245751 seconds.
+
+Transactions:
+	Committed:	845233
+	Commit ratio:	100.00 %		845233 / 845233
+----------------------------------------
+Calls:
+	Insert:		0
+	Remove:		0
+	Contains:	845233
+Thu Jan 20 13:45:30 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 1 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	1
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	1151872
+	Commit ratio:	100.00 %		1151872 / 1151872
+----------------------------------------
+Calls:
+	Insert:		5790
+	Remove:		5789
+	Contains:	1140293
+Thu Jan 20 13:45:50 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 2 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	2
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995793 seconds.
+
+Transactions:
+	Committed:	855284
+	Commit ratio:	99.52 %		855284 / 859452
+----------------------------------------
+Calls:
+	Insert:		4372
+	Remove:		4370
+	Contains:	846542
+Thu Jan 20 13:46:10 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 4 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	4
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152022 seconds.
+
+Transactions:
+	Committed:	874043
+	Commit ratio:	99.03 %		874043 / 882603
+----------------------------------------
+Calls:
+	Insert:		4483
+	Remove:		4481
+	Contains:	865079
+Thu Jan 20 13:46:30 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 8 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	8
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	867021
+	Commit ratio:	98.64 %		867021 / 878994
+----------------------------------------
+Calls:
+	Insert:		4537
+	Remove:		4534
+	Contains:	857951
+Thu Jan 20 13:46:51 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 16 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	16
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	868344
+	Commit ratio:	98.48 %		868344 / 881736
+----------------------------------------
+Calls:
+	Insert:		4528
+	Remove:		4518
+	Contains:	859305
+Thu Jan 20 13:47:11 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 32 -n 20000 -e 1
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	32
+Mix:		1% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0308284 seconds.
+
+Transactions:
+	Committed:	793852
+	Commit ratio:	98.47 %		793852 / 806174
+----------------------------------------
+Calls:
+	Insert:		4009
+	Remove:		3987
+	Contains:	785866
+Thu Jan 20 13:47:31 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 1 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	1
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	1060334
+	Commit ratio:	100.00 %		1060334 / 1060334
+----------------------------------------
+Calls:
+	Insert:		53266
+	Remove:		53266
+	Contains:	953802
+Thu Jan 20 13:47:51 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 2 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	2
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995838 seconds.
+
+Transactions:
+	Committed:	730829
+	Commit ratio:	95.20 %		730829 / 767652
+----------------------------------------
+Calls:
+	Insert:		36655
+	Remove:		36653
+	Contains:	657522
+Thu Jan 20 13:48:11 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 4 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	4
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995786 seconds.
+
+Transactions:
+	Committed:	730476
+	Commit ratio:	94.45 %		730476 / 773402
+----------------------------------------
+Calls:
+	Insert:		36881
+	Remove:		36879
+	Contains:	656717
+Thu Jan 20 13:48:31 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 8 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	8
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	748700
+	Commit ratio:	94.09 %		748700 / 795745
+----------------------------------------
+Calls:
+	Insert:		37730
+	Remove:		37726
+	Contains:	673246
+Thu Jan 20 13:48:51 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 16 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	16
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	738232
+	Commit ratio:	93.99 %		738232 / 785444
+----------------------------------------
+Calls:
+	Insert:		37377
+	Remove:		37369
+	Contains:	663496
+Thu Jan 20 13:49:11 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 32 -n 20000 -e 10
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	32
+Mix:		10% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0308270 seconds.
+
+Transactions:
+	Committed:	674331
+	Commit ratio:	93.98 %		674331 / 717548
+----------------------------------------
+Calls:
+	Insert:		34511
+	Remove:		34491
+	Contains:	605339
+Thu Jan 20 13:49:32 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 1 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	1
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995795 seconds.
+
+Transactions:
+	Committed:	766741
+	Commit ratio:	100.00 %		766741 / 766741
+----------------------------------------
+Calls:
+	Insert:		191385
+	Remove:		191385
+	Contains:	383971
+Thu Jan 20 13:49:52 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 2 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	2
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	449848
+	Commit ratio:	80.20 %		449848 / 560924
+----------------------------------------
+Calls:
+	Insert:		112512
+	Remove:		112511
+	Contains:	224826
+Thu Jan 20 13:50:12 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 4 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	4
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995837 seconds.
+
+Transactions:
+	Committed:	469031
+	Commit ratio:	78.93 %		469031 / 594206
+----------------------------------------
+Calls:
+	Insert:		117148
+	Remove:		117146
+	Contains:	234740
+Thu Jan 20 13:50:32 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 8 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	8
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	460212
+	Commit ratio:	79.81 %		460212 / 576637
+----------------------------------------
+Calls:
+	Insert:		114828
+	Remove:		114823
+	Contains:	230568
+Thu Jan 20 13:50:52 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 16 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	16
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152036 seconds.
+
+Transactions:
+	Committed:	466735
+	Commit ratio:	79.50 %		466735 / 587122
+----------------------------------------
+Calls:
+	Insert:		116421
+	Remove:		116414
+	Contains:	233912
+Thu Jan 20 13:51:12 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 32 -n 20000 -e 50
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	32
+Mix:		50% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152023 seconds.
+
+Transactions:
+	Committed:	423748
+	Commit ratio:	79.80 %		423748 / 531025
+----------------------------------------
+Calls:
+	Insert:		105634
+	Remove:		105612
+	Contains:	212526
+Thu Jan 20 13:51:32 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 1 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	1
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	546575
+	Commit ratio:	100.00 %		546575 / 546575
+----------------------------------------
+Calls:
+	Insert:		273288
+	Remove:		273288
+	Contains:	0
+Thu Jan 20 13:51:53 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 2 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	2
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	283701
+	Commit ratio:	68.71 %		283701 / 412895
+----------------------------------------
+Calls:
+	Insert:		141852
+	Remove:		141851
+	Contains:	0
+Thu Jan 20 13:52:13 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 4 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	4
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152038 seconds.
+
+Transactions:
+	Committed:	322357
+	Commit ratio:	66.21 %		322357 / 486879
+----------------------------------------
+Calls:
+	Insert:		161181
+	Remove:		161180
+	Contains:	0
+Thu Jan 20 13:52:33 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 8 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	8
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995833 seconds.
+
+Transactions:
+	Committed:	322399
+	Commit ratio:	67.18 %		322399 / 479935
+----------------------------------------
+Calls:
+	Insert:		161207
+	Remove:		161200
+	Contains:	0
+Thu Jan 20 13:52:53 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 16 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	16
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:19.9995776 seconds.
+
+Transactions:
+	Committed:	325629
+	Commit ratio:	67.01 %		325629 / 485952
+----------------------------------------
+Calls:
+	Insert:		162829
+	Remove:		162816
+	Contains:	0
+Thu Jan 20 13:53:13 2005	SXM -m SXM.MISManager -b SXM.RBTree -t 32 -n 20000 -e 100
+SXM: C# Software Transactional Memory
+(c) Microsoft Corporation. All rights reserved
+
+Benchmark:	SXM.RBTree
+Manager:	SXM.MISManager
+Threads:	32
+Mix:		100% modifier calls
+Milliseconds:	20000
+Data Structure OK
+Elapsed time: 00:00:20.0152035 seconds.
+
+Transactions:
+	Committed:	299374
+	Commit ratio:	66.80 %		299374 / 448179
+----------------------------------------
+Calls:
+	Insert:		149717
+	Remove:		149689
+	Contains:	0
